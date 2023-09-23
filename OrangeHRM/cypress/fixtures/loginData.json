@@ -1,0 +1,15 @@
+{
+    "userName": {
+        "valid": "Admin",
+        "invalid": "mosaShalan"
+    },
+    "password": {
+        "valid": "admin123",
+        "invalid": "khdjfidiu"
+    },
+    "empty": "",
+    "errorMsg": {
+        "fieldRequired": "Required",
+        "invalidLogin": "Invalid credentials"
+    }
+}

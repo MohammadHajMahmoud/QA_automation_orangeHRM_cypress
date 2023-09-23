@@ -1,0 +1,10 @@
+{
+  "firstName": "mohammad",
+  "middleName": "saed",
+  "lastName": "haj",
+  "gender":1,
+  "smoker":true,
+  "birthday" : "2001-11-26",
+  "employeeId" : "0321",
+  "martialStatus":"Single"
+}
