@@ -20,6 +20,6 @@ class addEmployee
      this.elements.EmployeeInputName().children().eq(2).type(LastName)
      this.elements.CreateLoginDetailsSwitch().click()
     }
-
+ 
 }
 export default addEmployee;

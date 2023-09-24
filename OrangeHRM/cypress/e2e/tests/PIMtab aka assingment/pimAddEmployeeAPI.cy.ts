@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
-import LoginPage from "../../pageObjects/LoginPage"
-import PimTab from "../../pageObjects/PIMTab"
+import LoginPage from "../../../pageObjects/LoginPage"
+import PimTab from "../../../pageObjects/PIMTab"
 const pimTab: PimTab = new PimTab();
 
 const logee: LoginPage = new LoginPage();
@@ -46,8 +46,10 @@ describe("Login Page", () => {
             })
             
   });
-    // it('Search for added employee', () => {
-    // cy.visit('/web/index.php/pim/viewEmployeeList')
-
-    // });
+     it('Search for added employee', () => {
+     cy.visit('/web/index.php/pim/viewEmployeeList')
+     cy.fixture('employee.json').then((employee) => {
+      pimTab.searchForAddedEmployeeById(employee)
+  })
+    });
 });
