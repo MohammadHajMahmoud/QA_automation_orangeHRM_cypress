@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Sep 25 22:19:32 EET 2023","Mon Sep 25 22:19:57 EET 2023","24490","","Login Page","","","","Add Employee",""
+"passed","Mon Sep 25 22:19:57 EET 2023","Mon Sep 25 22:20:03 EET 2023","6463","","Login Page","","","","confirm header & add employee personal details",""
+"passed","Mon Sep 25 22:20:03 EET 2023","Mon Sep 25 22:20:07 EET 2023","4391","","Login Page","","","","Search for added employee",""

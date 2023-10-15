@@ -15,6 +15,4 @@ function generateRandomName() {
   }
   
   // Example usage:
-  const randomName = generateRandomName();
-  console.log(randomName); // Output: efozu
   export { generateRandomName };
