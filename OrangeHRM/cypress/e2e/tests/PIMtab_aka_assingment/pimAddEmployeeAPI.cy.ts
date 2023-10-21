@@ -2,7 +2,6 @@
 import LoginPage from "../../../pageObjects/LoginPage"
 import PimTab from "../../../pageObjects/PIMTab"
 const pimTab: PimTab = new PimTab();
-
 const logee: LoginPage = new LoginPage();
 let employeeEmpNum = 0
 let firstName=""
